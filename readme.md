@@ -1,12 +1,17 @@
-1. istalacion
-2. hola mundo
+## Installation
 
-Site: https://doc.rust-lang.org/book/
+## Course
+  - hello-world
 
-consideraciones
-- la extesnsion es .rs
-- `rust --version`, `cargo --version`
+## Resources:
+  - [documentation](https://doc.rust-lang.org/book/)
+
+## Commands
+- to verify versions: `rust --version`, `cargo --version`
+- to install different versions: `rustup`
+- rustc
+- cargo
 - main.rs para ejecutables y lib.rs para bibliotecas
-- Cargo.toml usa Toml, para compilar `cargo build` y ejecutar `cargo run`
+- to use Cargo.toml usa Toml, para compilar `cargo build` y ejecutar `cargo run`
 - para lanzamiento : `cargo build --release`
 - para empezar un nuevo proyecto: `cargo new hola_mundo --bin`
